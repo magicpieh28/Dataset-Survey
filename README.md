@@ -12,6 +12,8 @@ NLPの分野で使えそうなデータセットのサーベイ
 * [SST](https://nlp.stanford.edu/sentiment/)
   * Stanford Sentiment Treebank 데이터셋. MR의 확장판이며 train/dev/test로 분류되어있음.
   * Stanford Sentiment Treebankデータセット。MRの拡張版、train/dev/testで分けられている。
+* [Amazon Product Data](http://jmcauley.ucsd.edu/data/amazon/)
+  * This dataset contains product reviews and metadata from Amazon, including 142.8 million reviews spanning May 1996 - July 2014.This dataset includes reviews (ratings, text, helpfulness votes), product metadata (descriptions, category information, price, brand, and image features), and links (also viewed/also bought graphs).
 * [OpinRank Review Dataset](http://archive.ics.uci.edu/ml/datasets/opinrank+review+dataset)
   * Tripadvisor와 Edmunds의 자동차/호텔 리뷰 모아놓은 데이터셋.
   * TripadbisorとEdmundsの車・ホテルのレビューコレクション。
