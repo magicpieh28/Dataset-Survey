@@ -32,6 +32,9 @@ NLPの分野で使えそうなデータセットのサーベイ
 * [MultiNLI](https://www.nyu.edu/projects/bowman/multinli/)
   * SNLI의 확장판으로 433k개 문장을 텍스트 함의 정보 아노테이션과 함께 모아둔 코퍼스. SNLI와 다른 점은 spoken과 written 둘 다 포함.
   * SNLIの拡張版で、433k個の文をテキスト含意情報のアノテーション付きで集めといたコーパス。SNLIとの違いは、spokenとwrittenどっちも使用してるという点。
+* [Amazon Review Data](http://jmcauley.ucsd.edu/data/amazon/links.html)
+  * 아마존 리뷰를 각 카테고리별로 나누어 만든 데이터셋. 어찌됐든 사이즈가 엄청 큼. 리뷰 하나에는 여러 문장이 포함되어 있고 전체 리뷰를 다운로드 하기 위해서는 메일을 보내야 함. 별점 파일과 메타데이터 파일이 추가로 있는데 메타데이터 파일에는 카테고리 분류 명이 들어있지만 작은 따옴표로 만들어진 json파일이라 짜증남.
+  * アマゾンのレビューを書くカテゴリごとに分けて作ったデータセット。とにかくサイズがでかい。レビュー分１つにはいくつかの文章が含まれていて、全体のレビューをダウンロードするためにはメールを怒る必要がある。星点のファイルとメタデータのファイルが追加的にあり、メタデータの中にはカテゴリが細かに分類されている。しかし、single quotationのjsonなのでうざい。
   
 ## Lexicon
 * [SST](https://nlp.stanford.edu/sentiment/) treebank
