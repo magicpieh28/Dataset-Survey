@@ -38,7 +38,7 @@ NLPの分野で使えそうなデータセットのサーベイ
   * Stanford Sentiment Treebank 데이터셋. MR의 확장판이며 train/dev/test로 분류되어있음.
   * Stanford Sentiment Treebankデータセット。MRの拡張版、train/dev/testで分けられている。
 * [MPQA](https://mpqa.cs.pitt.edu/lexicons/subj_lexicon/) ??
-  * 
+  * Polarity ratings for sentiment words from MPQA corpus
 * [HLT](https://hlt-nlp.fbk.eu/technologies/sentiwords) .txt
   * 155,000개 영어 단어의 sentiment score를 매겨놓은 데이터셋. (단어#형태소 점수)형식으로 되어있음.
   * 155,000個の英単語のsentiment scoreがつけられてるデータセット。(単語＃形態素　点数)形式になってる。
