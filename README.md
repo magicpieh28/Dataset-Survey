@@ -1,6 +1,6 @@
 # Dataset-Survey
-NLP분야에서 쓸만한 데이터셋 조사/
-NLPの分野で使えそうなデータセットのサーベイ
+  * NLP분야에서 쓸만한 데이터셋 조사
+  * NLPの分野で使えそうなデータセットのサーベイ
 
 ##
 * [IMDb](https://www.imdb.com/interfaces/)
