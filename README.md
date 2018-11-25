@@ -9,9 +9,6 @@ NLPの分野で使えそうなデータセットのサーベイ
 * [MR](http://www.cs.cornell.edu/people/pabo/movie-review-data/)
   * 영화 리뷰 한 개가 한 문장으로 되어있는 데이터셋. 포지티브/네거티브 라벨링 되어있음.
   * 映画レビュー一つ当たり一つの文章が含まれている。ポジティブ/ネガティブのラベリングがされている。
-* [SST](https://nlp.stanford.edu/sentiment/)
-  * Stanford Sentiment Treebank 데이터셋. MR의 확장판이며 train/dev/test로 분류되어있음.
-  * Stanford Sentiment Treebankデータセット。MRの拡張版、train/dev/testで分けられている。
 * [Amazon Product Data](http://jmcauley.ucsd.edu/data/amazon/)
   * This dataset contains product reviews and metadata from Amazon, including 142.8 million reviews spanning May 1996 - July 2014.This dataset includes reviews (ratings, text, helpfulness votes), product metadata (descriptions, category information, price, brand, and image features), and links (also viewed/also bought graphs).
 * [OpinRank Review Dataset](http://archive.ics.uci.edu/ml/datasets/opinrank+review+dataset)
@@ -35,3 +32,23 @@ NLPの分野で使えそうなデータセットのサーベイ
 * [MultiNLI](https://www.nyu.edu/projects/bowman/multinli/)
   * SNLI의 확장판으로 433k개 문장을 텍스트 함의 정보 아노테이션과 함께 모아둔 코퍼스. SNLI와 다른 점은 spoken과 written 둘 다 포함.
   * SNLIの拡張版で、433k個の文をテキスト含意情報のアノテーション付きで集めといたコーパス。SNLIとの違いは、spokenとwrittenどっちも使用してるという点。
+  
+## Lexicon
+* [SST](https://nlp.stanford.edu/sentiment/) treebank
+  * Stanford Sentiment Treebank 데이터셋. MR의 확장판이며 train/dev/test로 분류되어있음.
+  * Stanford Sentiment Treebankデータセット。MRの拡張版、train/dev/testで分けられている。
+* [MPQA](https://mpqa.cs.pitt.edu/lexicons/subj_lexicon/) ??
+  * 
+* [HLT](https://hlt-nlp.fbk.eu/technologies/sentiwords) .txt
+  * 155,000개 영어 단어의 sentiment score를 매겨놓은 데이터셋. (단어#형태소 점수)형식으로 되어있음.
+  * 155,000個の英単語のsentiment scoreがつけられてるデータセット。(単語＃形態素　点数)形式になってる。
+* [SentiWordNet](https://sentiwordnet.isti.cnr.it/) .txt
+  * Opinion Mining을 위한 감성언어 데이터셋. (POS	ID	PosScore	NegScore	SynsetTerms	Gloss)형식으로 되어있음.
+  * Opinion Miningのためのsentiment lexiconデータセット。(POS	ID	PosScore	NegScore	SynsetTerms	Gloss)形式になってる。
+* [WSD(Word Stat Dictionary)](https://provalisresearch.com/products/content-analysis-software/wordstat-dictionary/sentiment-dictionaries/) ??
+  * rule: The first rule is negative words not preceded by a negation within three words in the same sentence. The second rule is positive words preceded by a negation within three words in the same sentence.
+  * 9164개의 부정 단어와 4847개의 긍정 단어 이상이 포함되어있는 데이터셋.
+  * 9164個以上の否定単語と4847個以上の肯定単語でなっているデータセット。
+* [NRC Hashtag Affirmative Context Sentiment Lexicon and NRC Hashtag Negated Context Sentiment Lexicon](http://saifmohammad.com/WebPages/lexicons.html) .txt
+  * unigram lexicon과 bigram lexicon이 있는데 unigram의 경우 36,357개 긍정 단어와 7,592개 부정 단어가 포함되어 있고 bigram의 경우 159,479개의 긍정 단어와 23,875개의 부정 단어가 포함되어 있음. (#단어 sentiment_score 긍정문에서의_출현_빈도 부정문에서의_출현_빈도)형식으로 되어있음.
+  * unigram lexiconとbigram lexiconがあり、unigramの場合、36,357個の肯定単語と7,592個の否定単語が含まれている。bigramの場合、159,479個の肯定単語と23,875個の否定単語が含まれている。(#単語 sentiment_score 肯定文での出現頻度　否定文での出現頻度)の形式になっている。
