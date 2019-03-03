@@ -35,6 +35,15 @@
 * [Amazon Review Data](http://jmcauley.ucsd.edu/data/amazon/links.html)
   * 아마존 리뷰를 각 카테고리별로 나누어 만든 데이터셋. 어찌됐든 사이즈가 엄청 큼. 리뷰 하나에는 여러 문장이 포함되어 있고 전체 리뷰를 다운로드 하기 위해서는 메일을 보내야 함. 별점 파일과 메타데이터 파일이 추가로 있는데 메타데이터 파일에는 카테고리 분류 명이 들어있지만 작은 따옴표로 만들어진 json파일이라 짜증남.
   * アマゾンのレビューを書くカテゴリごとに分けて作ったデータセット。とにかくサイズがでかい。レビュー分１つにはいくつかの文章が含まれていて、全体のレビューをダウンロードするためにはメールを怒る必要がある。星点のファイルとメタデータのファイルが追加的にあり、メタデータの中にはカテゴリが細かに分類されている。しかし、single quotationのjsonなのでうざい。
+* [NPCC2013 - Chinese Weibo emotion analysis](http://tcci.ccf.org.cn/conference/2013/pages/page04_sam.html)
+  * 중국어 단문 데이터셋
+  * 中国語の短文データセット
+* [NPCC2014 - product review](http://tcci.ccf.org.cn/confernce/2014/pages/page04_sam.html)
+  * 중국어 단문 데이터셋
+  * 中国語の短文データセット
+* [NLPCC2017 - Chinese news title](http://tcci.ccf.org.cn/confernce/2017/taskdata.php)
+  * 중국어 단문 데이터셋
+  * 中国語の短文データセット
   
 ## Lexicon
 * [SST](https://nlp.stanford.edu/sentiment/) treebank
