@@ -44,6 +44,9 @@
 * [NLPCC2017 - Chinese news title](http://tcci.ccf.org.cn/confernce/2017/taskdata.php)
   * 중국어 단문 데이터셋
   * 中国語の短文データセット
+* [The Reuters dataset for document classification](https://martin-thoma.com/nlp-reuters/)
+  * 사람이 라벨링한 Reuters News 기사(1996-1997) 데이터셋
+  * 人がラベルづけたReutersニュース記事（1996-1997）のデータセット
   
 ## Lexicon
 * [SST](https://nlp.stanford.edu/sentiment/) treebank
