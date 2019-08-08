@@ -47,6 +47,15 @@
 * [The Reuters dataset for document classification](https://martin-thoma.com/nlp-reuters/)
   * 사람이 라벨링한 Reuters News 기사(1996-1997) 데이터셋
   * 人がラベルづけたReutersニュース記事（1996-1997）のデータセット
+* [QC](http://cogcomp.cs.illinois.edu/Data/QA/QC)
+  * 장소, 시간, 숫자 등 6가지 질문 분류를 위한 데이터셋
+  * 場所・時間・数字など6種類の質問分類のためのデータセット
+* [SICK](http://http://alt.qcri.org/semeval2014/task1/)
+  * SNLI와 동일한 작은 데이터셋
+  * SNLIと同じだけど小さいデータセット
+* [MSRP](http://research.microsoft.com/en-us/downloads)
+  * 단락 탐색을 위한 작은 데이터셋으로 문장쌍이 같은 의미를 갖는지 이진분류하는데 사용
+  * 段落探索のための小さなデータセットであり、文のペアが同一意味を持つか否かを分類する時使用
   
 ## Lexicon
 * [SST](https://nlp.stanford.edu/sentiment/) treebank
